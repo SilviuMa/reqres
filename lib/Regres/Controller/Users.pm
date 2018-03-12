@@ -33,7 +33,7 @@ sub AddUsers {
     foreach my $user ( @$userList ) {
         push @responses, Regres::Entities::RequestHandler->instance->SendContentRequest('users', 
                                                                                         $self->req->method,               
-                                                                                        encode_json $user)->TO_JSON();        
+                                                                                        encode_json $user)->body();        
     }
 
     return $self->render(json => \@responses);

@@ -1915,3 +1915,191 @@ Compilation failed in require at (eval 90) line 1.
 [Mon Mar 12 21:19:10 2018] [debug] POST "/register"
 [Mon Mar 12 21:19:10 2018] [debug] Routing to controller "Regres::Controller::Users" and action "RegisterUser"
 [Mon Mar 12 21:19:10 2018] [debug] 200 OK (0.564027s, 1.773/s)
+[Tue Mar 13 00:58:17 2018] [debug] POST "//login"
+[Tue Mar 13 00:58:17 2018] [debug] Template "not_found.development.html.ep" not found
+[Tue Mar 13 00:58:17 2018] [debug] Template "not_found.html.ep" not found
+[Tue Mar 13 00:58:17 2018] [debug] Rendering template "mojo/debug.html.ep"
+[Tue Mar 13 00:58:17 2018] [debug] Rendering template "mojo/menubar.html.ep"
+[Tue Mar 13 00:58:17 2018] [debug] Your secret passphrase needs to be changed
+[Tue Mar 13 00:58:17 2018] [debug] 404 Not Found (0.018612s, 53.729/s)
+[Tue Mar 13 00:58:19 2018] [debug] GET "/"
+[Tue Mar 13 00:58:19 2018] [debug] Routing to controller "Regres::Controller::Home" and action "landing"
+[Tue Mar 13 00:58:19 2018] [debug] Rendering template "/regres/landing.html.ep"
+[Tue Mar 13 00:58:19 2018] [debug] 200 OK (0.001224s, 816.993/s)
+[Tue Mar 13 00:58:21 2018] [debug] POST "/login"
+[Tue Mar 13 00:58:21 2018] [debug] Routing to controller "Regres::Controller::Users" and action "LoginUser"
+[Tue Mar 13 00:58:22 2018] [debug] 200 OK (0.826627s, 1.210/s)
+[Tue Mar 13 00:58:26 2018] [debug] POST "/register"
+[Tue Mar 13 00:58:26 2018] [debug] Routing to controller "Regres::Controller::Users" and action "RegisterUser"
+[Tue Mar 13 00:58:27 2018] [debug] 200 OK (0.49679s, 2.013/s)
+[Tue Mar 13 00:58:31 2018] [debug] POST "/users"
+[Tue Mar 13 00:58:31 2018] [debug] Routing to controller "Regres::Controller::Users" and action "AddUsers"
+[Tue Mar 13 00:58:31 2018] [error] malformed JSON string, neither tag, array, object, number, string or atom, at character offset 315 (before "]") at lib/Regres/Controller/Users.pm line 29.
+
+[Tue Mar 13 00:58:31 2018] [debug] Template "exception.development.html.ep" not found
+[Tue Mar 13 00:58:31 2018] [debug] Template "exception.html.ep" not found
+[Tue Mar 13 00:58:31 2018] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Mar 13 00:58:31 2018] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Mar 13 00:58:31 2018] [debug] 500 Internal Server Error (0.005564s, 179.727/s)
+[Tue Mar 13 00:58:36 2018] [debug] POST "/users"
+[Tue Mar 13 00:58:36 2018] [debug] Routing to controller "Regres::Controller::Users" and action "AddUsers"
+[Tue Mar 13 00:58:37 2018] [debug] 200 OK (0.912317s, 1.096/s)
+[Tue Mar 13 01:01:42 2018] [debug] GET "/"
+[Tue Mar 13 01:01:42 2018] [debug] Routing to controller "Regres::Controller::Home" and action "landing"
+[Tue Mar 13 01:01:42 2018] [debug] Rendering template "/regres/landing.html.ep"
+[Tue Mar 13 01:01:42 2018] [debug] 200 OK (0.002427s, 412.031/s)
+[Tue Mar 13 01:01:49 2018] [debug] POST "/login"
+[Tue Mar 13 01:01:49 2018] [debug] Routing to controller "Regres::Controller::Users" and action "LoginUser"
+[Tue Mar 13 01:01:50 2018] [debug] 200 OK (0.727861s, 1.374/s)
+[Tue Mar 13 01:02:33 2018] [debug] POST "/login"
+[Tue Mar 13 01:02:33 2018] [debug] Routing to controller "Regres::Controller::Users" and action "LoginUser"
+[Tue Mar 13 01:02:34 2018] [debug] 200 OK (0.463216s, 2.159/s)
+[Tue Mar 13 01:04:22 2018] [debug] GET "/"
+[Tue Mar 13 01:04:22 2018] [debug] Routing to controller "Regres::Controller::Home" and action "landing"
+[Tue Mar 13 01:04:22 2018] [debug] Rendering cached template "/regres/landing.html.ep"
+[Tue Mar 13 01:04:22 2018] [debug] 200 OK (0.000328s, 3048.780/s)
+[Tue Mar 13 01:04:37 2018] [debug] GET "/"
+[Tue Mar 13 01:04:37 2018] [debug] Routing to controller "Regres::Controller::Home" and action "landing"
+[Tue Mar 13 01:04:37 2018] [debug] Rendering template "/regres/landing.html.ep"
+[Tue Mar 13 01:04:37 2018] [debug] 200 OK (0.002167s, 461.467/s)
+[Tue Mar 13 01:04:41 2018] [debug] POST "/login"
+[Tue Mar 13 01:04:41 2018] [debug] Routing to controller "Regres::Controller::Users" and action "LoginUser"
+[Tue Mar 13 01:04:41 2018] [debug] 200 OK (0.641606s, 1.559/s)
+[Tue Mar 13 01:04:50 2018] [debug] POST "/login"
+[Tue Mar 13 01:04:50 2018] [debug] Routing to controller "Regres::Controller::Users" and action "LoginUser"
+[Tue Mar 13 01:04:50 2018] [debug] 200 OK (0.499357s, 2.003/s)
+[Tue Mar 13 01:06:52 2018] [debug] GET "/"
+[Tue Mar 13 01:06:52 2018] [debug] Routing to controller "Regres::Controller::Home" and action "landing"
+[Tue Mar 13 01:06:52 2018] [debug] Rendering template "/regres/landing.html.ep"
+[Tue Mar 13 01:06:52 2018] [debug] 200 OK (0.002036s, 491.159/s)
+[Tue Mar 13 01:06:56 2018] [debug] POST "/login"
+[Tue Mar 13 01:06:57 2018] [debug] Routing to controller "Regres::Controller::Users" and action "LoginUser"
+[Tue Mar 13 01:06:57 2018] [debug] 200 OK (0.72311s, 1.383/s)
+[Tue Mar 13 01:07:01 2018] [debug] POST "/register"
+[Tue Mar 13 01:07:01 2018] [debug] Routing to controller "Regres::Controller::Users" and action "RegisterUser"
+[Tue Mar 13 01:07:01 2018] [debug] 200 OK (0.490285s, 2.040/s)
+[Tue Mar 13 01:07:07 2018] [debug] POST "/users"
+[Tue Mar 13 01:07:07 2018] [debug] Routing to controller "Regres::Controller::Users" and action "AddUsers"
+[Tue Mar 13 01:07:07 2018] [debug] 200 OK (0.67087s, 1.491/s)
+[Tue Mar 13 01:07:12 2018] [debug] GET "/users"
+[Tue Mar 13 01:07:12 2018] [debug] Routing to controller "Regres::Controller::Users" and action "GetUsers"
+[Tue Mar 13 01:07:14 2018] [debug] 200 OK (1.481351s, 0.675/s)
+[Tue Mar 13 01:07:18 2018] [debug] GET "/unknown"
+[Tue Mar 13 01:07:18 2018] [debug] Routing to controller "Regres::Controller::Jobs" and action "GetJobs"
+[Tue Mar 13 01:07:20 2018] [debug] 200 OK (2.014585s, 0.496/s)
+[Tue Mar 13 01:07:24 2018] [debug] PUT "/jobs"
+[Tue Mar 13 01:07:24 2018] [debug] Routing to controller "Regres::Controller::Jobs" and action "UpdateJobs"
+[Tue Mar 13 01:07:30 2018] [debug] 200 OK (6.626721s, 0.151/s)
+[Tue Mar 13 01:08:48 2018] [debug] POST "/users"
+[Tue Mar 13 01:08:48 2018] [debug] Routing to controller "Regres::Controller::Users" and action "AddUsers"
+[Tue Mar 13 01:08:49 2018] [debug] 200 OK (0.971868s, 1.029/s)
+[Tue Mar 13 01:10:02 2018] [debug] POST "/users"
+[Tue Mar 13 01:10:02 2018] [error] syntax error at lib/Regres/Controller/Users.pm line 39, near ");"
+Compilation failed in require at (eval 90) line 1.
+
+[Tue Mar 13 01:10:02 2018] [debug] Template "exception.development.html.ep" not found
+[Tue Mar 13 01:10:02 2018] [debug] Template "exception.html.ep" not found
+[Tue Mar 13 01:10:02 2018] [debug] Rendering template "mojo/debug.html.ep"
+[Tue Mar 13 01:10:02 2018] [debug] Rendering template "mojo/menubar.html.ep"
+[Tue Mar 13 01:10:02 2018] [debug] Your secret passphrase needs to be changed
+[Tue Mar 13 01:10:02 2018] [debug] 500 Internal Server Error (0.217364s, 4.601/s)
+[Tue Mar 13 01:10:02 2018] [debug] POST "/users"
+[Tue Mar 13 01:10:02 2018] [debug] Routing to controller "Regres::Controller::Users" and action "AddUsers"
+[Tue Mar 13 01:10:02 2018] [debug] Action not found in controller
+[Tue Mar 13 01:10:02 2018] [debug] Template "users/AddUsers.html.ep" not found
+[Tue Mar 13 01:10:02 2018] [debug] Template "not_found.development.html.ep" not found
+[Tue Mar 13 01:10:02 2018] [debug] Template "not_found.html.ep" not found
+[Tue Mar 13 01:10:02 2018] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Mar 13 01:10:02 2018] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Mar 13 01:10:02 2018] [debug] 404 Not Found (0.004143s, 241.371/s)
+[Tue Mar 13 01:10:35 2018] [debug] POST "/users"
+[Tue Mar 13 01:10:35 2018] [debug] Routing to controller "Regres::Controller::Users" and action "AddUsers"
+[Tue Mar 13 01:10:36 2018] [debug] 200 OK (1.254784s, 0.797/s)
+[Tue Mar 13 01:11:05 2018] [debug] POST "/users"
+[Tue Mar 13 01:11:06 2018] [debug] Routing to controller "Regres::Controller::Users" and action "AddUsers"
+[Tue Mar 13 01:11:07 2018] [debug] 200 OK (1.205629s, 0.829/s)
+[Tue Mar 13 01:11:29 2018] [debug] POST "/users"
+[Tue Mar 13 01:11:30 2018] [debug] Routing to controller "Regres::Controller::Users" and action "AddUsers"
+[Tue Mar 13 01:11:31 2018] [debug] 200 OK (1.295073s, 0.772/s)
+[Tue Mar 13 01:14:49 2018] [debug] POST "/users"
+[Tue Mar 13 01:14:49 2018] [debug] Routing to controller "Regres::Controller::Users" and action "AddUsers"
+[Tue Mar 13 01:14:50 2018] [error] hash- or arrayref expected (not a simple scalar, use allow_nonref to allow this) at lib/Regres/Controller/Users.pm line 34.
+
+[Tue Mar 13 01:14:50 2018] [debug] Template "exception.development.html.ep" not found
+[Tue Mar 13 01:14:50 2018] [debug] Template "exception.html.ep" not found
+[Tue Mar 13 01:14:50 2018] [debug] Rendering template "mojo/debug.html.ep"
+[Tue Mar 13 01:14:50 2018] [debug] Rendering template "mojo/menubar.html.ep"
+[Tue Mar 13 01:14:50 2018] [debug] Your secret passphrase needs to be changed
+[Tue Mar 13 01:14:50 2018] [debug] 500 Internal Server Error (0.759918s, 1.316/s)
+[Tue Mar 13 01:15:31 2018] [debug] POST "/users"
+[Tue Mar 13 01:15:31 2018] [debug] Routing to controller "Regres::Controller::Users" and action "AddUsers"
+[Tue Mar 13 01:15:32 2018] [debug] 200 OK (1.225577s, 0.816/s)
+[Tue Mar 13 01:15:49 2018] [debug] POST "/users"
+[Tue Mar 13 01:15:49 2018] [debug] Routing to controller "Regres::Controller::Users" and action "AddUsers"
+[Tue Mar 13 01:15:50 2018] [debug] 200 OK (1.184694s, 0.844/s)
+[Tue Mar 13 01:16:13 2018] [debug] POST "/users"
+[Tue Mar 13 01:16:13 2018] [debug] Routing to controller "Regres::Controller::Users" and action "AddUsers"
+[Tue Mar 13 01:16:14 2018] [debug] 200 OK (0.920268s, 1.087/s)
+[Tue Mar 13 01:18:35 2018] [debug] POST "/users"
+[Tue Mar 13 01:18:36 2018] [debug] Routing to controller "Regres::Controller::Users" and action "AddUsers"
+[Tue Mar 13 01:18:37 2018] [debug] 200 OK (1.242212s, 0.805/s)
+[Tue Mar 13 01:19:37 2018] [debug] POST "/users"
+[Tue Mar 13 01:19:37 2018] [debug] Routing to controller "Regres::Controller::Users" and action "AddUsers"
+[Tue Mar 13 01:19:38 2018] [debug] 200 OK (1.23226s, 0.812/s)
+[Tue Mar 13 01:19:53 2018] [debug] POST "/users"
+[Tue Mar 13 01:19:53 2018] [debug] Routing to controller "Regres::Controller::Users" and action "AddUsers"
+[Tue Mar 13 01:19:54 2018] [debug] 200 OK (1.251647s, 0.799/s)
+[Tue Mar 13 01:22:25 2018] [debug] GET "/"
+[Tue Mar 13 01:22:25 2018] [debug] Routing to controller "Regres::Controller::Home" and action "landing"
+[Tue Mar 13 01:22:25 2018] [debug] Rendering template "/regres/landing.html.ep"
+[Tue Mar 13 01:22:25 2018] [debug] 200 OK (0.002149s, 465.333/s)
+[Tue Mar 13 01:22:29 2018] [debug] POST "/register"
+[Tue Mar 13 01:22:29 2018] [debug] Routing to controller "Regres::Controller::Users" and action "RegisterUser"
+[Tue Mar 13 01:22:30 2018] [debug] 200 OK (0.70606s, 1.416/s)
+[Tue Mar 13 01:22:38 2018] [debug] GET "/unknown"
+[Tue Mar 13 01:22:38 2018] [debug] Routing to controller "Regres::Controller::Jobs" and action "GetJobs"
+[Tue Mar 13 01:22:39 2018] [debug] 200 OK (1.79225s, 0.558/s)
+[Tue Mar 13 01:22:44 2018] [debug] POST "/users"
+[Tue Mar 13 01:22:44 2018] [debug] Routing to controller "Regres::Controller::Users" and action "AddUsers"
+[Tue Mar 13 01:22:44 2018] [debug] 200 OK (0.744034s, 1.344/s)
+[Tue Mar 13 01:24:24 2018] [debug] GET "/"
+[Tue Mar 13 01:24:24 2018] [debug] Routing to controller "Regres::Controller::Home" and action "landing"
+[Tue Mar 13 01:24:24 2018] [debug] Rendering cached template "/regres/landing.html.ep"
+[Tue Mar 13 01:24:24 2018] [debug] 200 OK (0.000465s, 2150.538/s)
+[Tue Mar 13 01:24:30 2018] [debug] POST "/users"
+[Tue Mar 13 01:24:30 2018] [debug] Routing to controller "Regres::Controller::Users" and action "AddUsers"
+[Tue Mar 13 01:24:31 2018] [debug] 200 OK (0.968634s, 1.032/s)
+[Tue Mar 13 01:25:33 2018] [debug] GET "/"
+[Tue Mar 13 01:25:33 2018] [debug] Routing to controller "Regres::Controller::Home" and action "landing"
+[Tue Mar 13 01:25:33 2018] [debug] Rendering cached template "/regres/landing.html.ep"
+[Tue Mar 13 01:25:33 2018] [debug] 200 OK (0.000367s, 2724.796/s)
+[Tue Mar 13 01:25:39 2018] [debug] GET "/users"
+[Tue Mar 13 01:25:39 2018] [debug] Routing to controller "Regres::Controller::Users" and action "GetUsers"
+[Tue Mar 13 01:25:41 2018] [debug] 200 OK (2.155149s, 0.464/s)
+[Tue Mar 13 01:25:53 2018] [debug] POST "/users"
+[Tue Mar 13 01:25:53 2018] [debug] Routing to controller "Regres::Controller::Users" and action "AddUsers"
+[Tue Mar 13 01:25:53 2018] [debug] 200 OK (0.854855s, 1.170/s)
+[Tue Mar 13 01:27:13 2018] [debug] POST "/users"
+[Tue Mar 13 01:27:13 2018] [debug] Routing to controller "Regres::Controller::Users" and action "AddUsers"
+[Tue Mar 13 01:27:14 2018] [debug] 200 OK (1.167789s, 0.856/s)
+[Tue Mar 13 01:27:56 2018] [debug] GET "/"
+[Tue Mar 13 01:27:56 2018] [debug] Routing to controller "Regres::Controller::Home" and action "landing"
+[Tue Mar 13 01:27:56 2018] [debug] Rendering template "/regres/landing.html.ep"
+[Tue Mar 13 01:27:56 2018] [debug] 200 OK (0.002237s, 447.027/s)
+[Tue Mar 13 01:28:00 2018] [debug] POST "/users"
+[Tue Mar 13 01:28:00 2018] [debug] Routing to controller "Regres::Controller::Users" and action "AddUsers"
+[Tue Mar 13 01:28:01 2018] [debug] 200 OK (0.777982s, 1.285/s)
+[Tue Mar 13 01:28:10 2018] [debug] GET "/"
+[Tue Mar 13 01:28:10 2018] [debug] Routing to controller "Regres::Controller::Home" and action "landing"
+[Tue Mar 13 01:28:10 2018] [debug] Rendering cached template "/regres/landing.html.ep"
+[Tue Mar 13 01:28:10 2018] [debug] 200 OK (0.000335s, 2985.075/s)
+[Tue Mar 13 01:29:33 2018] [debug] GET "/"
+[Tue Mar 13 01:29:33 2018] [debug] Routing to controller "Regres::Controller::Home" and action "landing"
+[Tue Mar 13 01:29:33 2018] [debug] Rendering template "/regres/landing.html.ep"
+[Tue Mar 13 01:29:33 2018] [debug] 200 OK (0.002398s, 417.014/s)
+[Tue Mar 13 01:29:41 2018] [debug] POST "/users"
+[Tue Mar 13 01:29:41 2018] [debug] Routing to controller "Regres::Controller::Users" and action "AddUsers"
+[Tue Mar 13 01:29:42 2018] [debug] 200 OK (1.141487s, 0.876/s)
+[Tue Mar 13 01:29:49 2018] [debug] PUT "/jobs"
+[Tue Mar 13 01:29:49 2018] [debug] Routing to controller "Regres::Controller::Jobs" and action "UpdateJobs"
+[Tue Mar 13 01:29:57 2018] [debug] 200 OK (7.195591s, 0.139/s)

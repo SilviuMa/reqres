@@ -29,7 +29,7 @@ sub UpdateJobs {
         push @responses, Regres::Entities::RequestHandler->instance->SendContentRequest(sprintf('users/%s', 
                                                                                                 $user->{id}), 
                                                                                         $self->req->method, 
-                                                                                        encode_json $user);
+                                                                                        encode_json $user)->body();
     }
 
     return $self->render(json => \@responses);
