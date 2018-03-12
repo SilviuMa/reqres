@@ -13,7 +13,8 @@ class App extends Component {
     super();
     this.state = { selectedOption       : 'login',
                    selectedOptionValues : defVals['login'],
-                   response             : '' };
+                   response             : '',
+                   loading              : false };
   }
 
   handleChange = (selectedOption) => {
@@ -33,9 +34,14 @@ class App extends Component {
     this.setState({response});
   }
 
+  toggleLoadingState = () => {
+    this.setState({loading: !this.state.loading});
+  }
+
   sendRequest = () => {
-    methodRequests[this.state.selectedOptionValues.method]("http://192.168.0.102:3000/"+this.state.selectedOptionValues.url,
+    methodRequests[this.state.selectedOptionValues.method](this.state.selectedOptionValues.url,
                                                            this.updateResponseState,
+                                                           this.toggleLoadingState,
                                                            this.state.selectedOptionValues.body)
   }
 
@@ -60,8 +66,12 @@ class App extends Component {
         />
         <p>Body:</p>
         <textarea onChange={this.updateBody} value={this.state.selectedOptionValues.body}/>
-        <button onClick={this.sendRequest}>Submit</button>
-        <p>Response:</p>
+        <button onClick={this.sendRequest} disabled={this.state.loading}>Submit</button>
+        {
+          this.state.loading
+          ? <p>Loading...</p>
+          : <p>Response:</p>
+        }
         <textarea disabled value={this.state.response}/>
       </div>
     );
