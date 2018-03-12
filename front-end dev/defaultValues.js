@@ -18,9 +18,9 @@ const defVals = {
                             {
                                 "name": "neo",
                                 "job": "the one"
-                            },
+                            }
                         ]`,
-                method: 'POST',
+                method: 'POSTarrayBody',
                 url:    '/users'},
     getUsers: { body:   '',
                 method: 'GET',
@@ -31,7 +31,7 @@ const defVals = {
     updateJobs: { body:   `{
                                 "job": "tax"
                             }`,
-                  method: 'PUT',
+                  method: 'PUTarrayBody',
                   url:    '/jobs'},
   };
 
